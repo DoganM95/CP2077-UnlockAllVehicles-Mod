@@ -5,6 +5,7 @@ A cyberpunk 2077 mod, that makes any vehicle summonable from the call menu
 
 A mod to make ~ 400 vehicles summonable. Some might crash the game, as they are not designed to be called.  
 However, liked vehicles can be favorized, so they are at the top.  
+Vehicles shown multiple times are variations of the same base (different colors, etc.).  
 
 ## Installation
 
