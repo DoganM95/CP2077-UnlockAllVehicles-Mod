@@ -7,6 +7,9 @@ A mod to make ~ 400 vehicles summonable. Some might crash the game, as they are 
 However, liked vehicles can be favorized, so they are at the top.  
 Vehicles shown multiple times are variations of the same base (different colors, etc.).  
 
+## Compatibility
+The latest game version this mod is compatible with: **2.1**
+
 ## Installation
 
 - Unzip folder to `<gamedir>/r6/tweaks/`
