@@ -8,6 +8,7 @@ However, liked vehicles can be favorized, so they are at the top.
 Vehicles shown multiple times are variations of the same base (different colors, etc.).  
 
 ## Compatibility
+
 The latest game version this mod is compatible with: **2.1**
 
 ## Installation
