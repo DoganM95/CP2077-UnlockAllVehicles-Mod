@@ -3,6 +3,8 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.aldecado_thorton_colby_heat_3
   - !append-once Vehicle.aldecado_thorton_galena_heat_1
   - !append-once Vehicle.aldecado_thorton_galena_heat_2
+  - !append-once Vehicle.arr_05_fox_car
+  - !append-once Vehicle.arr_05_objective_truck
   - !append-once Vehicle.av_base
   - !append-once Vehicle.av_garbage_drone
   - !append-once Vehicle.av_luxury
@@ -11,14 +13,18 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.av_militech_manticore_no_thruster
   - !append-once Vehicle.av_militech_manticore_quest
   - !append-once Vehicle.av_public_train
+  - !append-once Vehicle.av_public_train_b
   - !append-once Vehicle.av_rayfield_excalibur
   - !append-once Vehicle.av_rayfield_excalibur_no_thruster
   - !append-once Vehicle.av_rayfield_excalibur_quest
   - !append-once Vehicle.av_trauma
   - !append-once Vehicle.av_trauma_savable
   - !append-once Vehicle.av_zetatech_atlus
+  - !append-once Vehicle.av_zetatech_atlus_no_thruster
   - !append-once Vehicle.av_zetatech_surveyor
   - !append-once Vehicle.av_zetatech_valgus
+  - !append-once Vehicle.av_zetatech_valgus_quest
+  - !append-once Vehicle.batty_av
   - !append-once Vehicle.border_patrol_chevalier_emperor_militech_heat_3
   - !append-once Vehicle.border_patrol_prevention
   - !append-once Vehicle.border_patrol_prevention_2
@@ -27,17 +33,71 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.border_prevention
   - !append-once Vehicle.cs_savable_arch
   - !append-once Vehicle.cs_savable_archer_hella
+  - !append-once Vehicle.cs_savable_archer_hella_police_siren
+  - !append-once Vehicle.cs_savable_archer_hella_sixth_street
   - !append-once Vehicle.cs_savable_archer_quartz
+  - !append-once Vehicle.cs_savable_archer_quartz_mox
+  - !append-once Vehicle.cs_savable_archer_quartz_nomad_quest
+  - !append-once Vehicle.cs_savable_archer_quartz_tyger
   - !append-once Vehicle.cs_savable_brennan_apollo
   - !append-once Vehicle.cs_savable_chevalier_emperor
+  - !append-once Vehicle.cs_savable_chevalier_emperor_police_siren
+  - !append-once Vehicle.cs_savable_chevalier_thrax
+  - !append-once Vehicle.cs_savable_chevalier_thrax_maelstrom
+  - !append-once Vehicle.cs_savable_chevalier_thrax_sixth_street
+  - !append-once Vehicle.cs_savable_chevalier_thrax_valentino
+  - !append-once Vehicle.cs_savable_herrera_outlaw
   - !append-once Vehicle.cs_savable_kaukaz_bratsk
+  - !append-once Vehicle.cs_savable_kaukaz_bratsk_containers
+  - !append-once Vehicle.cs_savable_kaukaz_bratsk_metalstud
+  - !append-once Vehicle.cs_savable_kaukaz_zeya
+  - !append-once Vehicle.cs_savable_kaukaz_zeya_container
+  - !append-once Vehicle.cs_savable_kaukaz_zeya_full
+  - !append-once Vehicle.cs_savable_mahir_mt28_coach
+  - !append-once Vehicle.cs_savable_mahir_supron
+  - !append-once Vehicle.cs_savable_mahir_voodoo_boys
+  - !append-once Vehicle.cs_savable_makigai_maimai
+  - !append-once Vehicle.cs_savable_militech_behemoth
+  - !append-once Vehicle.cs_savable_mizutani_shion
   - !append-once Vehicle.cs_savable_mizutani_shion_tyger
+  - !append-once Vehicle.cs_savable_quadra_turbo
+  - !append-once Vehicle.cs_savable_quadra_turbo_tc
+  - !append-once Vehicle.cs_savable_quadra_turbo_tyger_claw
+  - !append-once Vehicle.cs_savable_quadra_type66
+  - !append-once Vehicle.cs_savable_quadra_type66_nomad
+  - !append-once Vehicle.cs_savable_rayfield_caliburn
+  - !append-once Vehicle.cs_savable_thorton_colby
+  - !append-once Vehicle.cs_savable_thorton_colby_nomad
+  - !append-once Vehicle.cs_savable_thorton_colby_valentinos
   - !append-once Vehicle.cs_savable_thorton_galena
+  - !append-once Vehicle.cs_savable_thorton_galena_gt
+  - !append-once Vehicle.cs_savable_thorton_galena_maelstrom
+  - !append-once Vehicle.cs_savable_thorton_galena_nomad
+  - !append-once Vehicle.cs_savable_thorton_galena_voodoo_boys
+  - !append-once Vehicle.cs_savable_thorton_mackinaw
+  - !append-once Vehicle.cs_savable_thorton_mackinaw_sixth_street
+  - !append-once Vehicle.cs_savable_thorton_mackinaw_valentinos
+  - !append-once Vehicle.cs_savable_utility4_kaukaz_zeya_freight
   - !append-once Vehicle.cs_savable_v_standard25_thorton_merrimac_police_siren
   - !append-once Vehicle.cs_savable_v_standard3_militech_hellhound_police_siren
+  - !append-once Vehicle.cs_savable_villefort_alvarado
+  - !append-once Vehicle.cs_savable_villefort_alvarado_mox
+  - !append-once Vehicle.cs_savable_villefort_alvarado_valentinos
   - !append-once Vehicle.cs_savable_villefort_columbus
+  - !append-once Vehicle.cs_savable_villefort_columbus_arasaka
+  - !append-once Vehicle.cs_savable_villefort_columbus_kangtao
+  - !append-once Vehicle.cs_savable_villefort_columbus_sixth_street
+  - !append-once Vehicle.cs_savable_villefort_columbus_tyger
+  - !append-once Vehicle.cs_savable_villefort_cortes
   - !append-once Vehicle.cs_savable_villefort_cortes_kangtao
+  - !append-once Vehicle.cs_savable_villefort_cortes_police
+  - !append-once Vehicle.cs_savable_villefort_cortes_police_siren
   - !append-once Vehicle.cs_savable_yaiba_kusanagi
+  - !append-once Vehicle.cs_v_sport2_mizutani_shion_nomad
+  - !append-once Vehicle.cs_v_sport2_mizutani_shion_nomad_wraith
+  - !append-once Vehicle.cs_v_standard2_thorton_galena_nomad
+  - !append-once Vehicle.cvi_02_ps_objective_van
+  - !append-once Vehicle.de_pac_wwd_04_galena
   - !append-once Vehicle.e319_galena_always_visible
   - !append-once Vehicle.e319_makigai_maimai
   - !append-once Vehicle.e319_mizutani_shion
@@ -45,6 +105,31 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.e319_thorton_galena
   - !append-once Vehicle.e319_villefort_alvarado
   - !append-once Vehicle.e319_yaiba_kusanagi
+  - !append-once Vehicle.hil_06_objective_car
+  - !append-once Vehicle.ina_04_antenna_car
+  - !append-once Vehicle.jackie_bike
+  - !append-once Vehicle.johnny_car
+  - !append-once Vehicle.jpn_01_gift_car
+  - !append-once Vehicle.judy_van
+  - !append-once Vehicle.kab_02_backup_galena
+  - !append-once Vehicle.kab_02_backup_thrax
+  - !append-once Vehicle.kerry_vehicle
+  - !append-once Vehicle.kerry_vehicle_sq017
+  - !append-once Vehicle.ma_bls_ina_se1_08_trapped_car
+  - !append-once Vehicle.ma_bls_ina_se1_22_wraith_car
+  - !append-once Vehicle.ma_cct_dtn_03_scavenger_van
+  - !append-once Vehicle.ma_hey_spr_12_trauma_av
+  - !append-once Vehicle.ma_hey_spr_12_trauma_av_engine_on
+  - !append-once Vehicle.ma_pac_cvi_08_archer
+  - !append-once Vehicle.ma_pac_cvi_08_av_atlus
+  - !append-once Vehicle.ma_pac_cvi_08_av_valgus
+  - !append-once Vehicle.ma_pac_cvi_08_bike_arch
+  - !append-once Vehicle.ma_pac_cvi_08_bike_kusanagi
+  - !append-once Vehicle.ma_pac_cvi_08_crash_car
+  - !append-once Vehicle.ma_pac_cvi_08_quadra
+  - !append-once Vehicle.ma_pac_cvi_08_shion
+  - !append-once Vehicle.ma_pac_cvi_08_van
+  - !append-once Vehicle.ma_wat_lch_03_garbage_truck
   - !append-once Vehicle.max_tac_av
   - !append-once Vehicle.max_tac_av_2nd_wave1
   - !append-once Vehicle.max_tac_av_2nd_wave2
@@ -54,6 +139,16 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.max_tac_av3
   - !append-once Vehicle.maxtac_prevention
   - !append-once Vehicle.mbus
+  - !append-once Vehicle.mitch_vehicle
+  - !append-once Vehicle.mq001_little_bombus
+  - !append-once Vehicle.mq001_scorpion_vehicle
+  - !append-once Vehicle.mq005_police_car
+  - !append-once Vehicle.mq006_rollercoaster_cart
+  - !append-once Vehicle.mq013_bike
+  - !append-once Vehicle.mq017_delivery_truck
+  - !append-once Vehicle.mq026_maelstrom_car
+  - !append-once Vehicle.mq026_mib_van
+  - !append-once Vehicle.mq038_contact_car
   - !append-once Vehicle.ncpd_archer_hella_heat_2
   - !append-once Vehicle.ncpd_archer_hella_heat_3
   - !append-once Vehicle.ncpd_brennan_apollo_bike
@@ -63,13 +158,233 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.ncpd_thorton_merrimac_police_heat_4
   - !append-once Vehicle.ncpd_villefort_cortes_heat_1
   - !append-once Vehicle.ncpd_villefort_cortes_heat_2
+  - !append-once Vehicle.nid_02_objective_van
+  - !append-once Vehicle.ow_fixer_car_dino
+  - !append-once Vehicle.ow_fixer_car_muamar
+  - !append-once Vehicle.ow_fixer_car_regina
+  - !append-once Vehicle.ow_fixer_car_rouge
+  - !append-once Vehicle.ow_fixer_car_wakako
+  - !append-once Vehicle.panam_army_truck
+  - !append-once Vehicle.panam_panzer
+  - !append-once Vehicle.panam_panzer_q202
+  - !append-once Vehicle.panam_vehicle
   - !append-once Vehicle.port
   - !append-once Vehicle.ps_interceptor
+  - !append-once Vehicle.q000_arasaka_chase_car
+  - !append-once Vehicle.q000_arasaka_lux_av
+  - !append-once Vehicle.q000_car_custom_scenes
+  - !append-once Vehicle.q000_kid_6thstreet_car
+  - !append-once Vehicle.q000_kid_av_garbage
+  - !append-once Vehicle.q000_kid_corporate_car
+  - !append-once Vehicle.q000_kid_padre_car
+  - !append-once Vehicle.q000_kid_police_car
+  - !append-once Vehicle.q000_kid_police_car_lights
+  - !append-once Vehicle.q000_kid_police_car_lights_02
+  - !append-once Vehicle.q000_lizzies_wealthy_client_car_01
+  - !append-once Vehicle.q000_lizzies_wealthy_client_car_02
+  - !append-once Vehicle.q000_lizzies_wealthy_client_car_03
+  - !append-once Vehicle.q000_lizzies_wealthy_client_car_04
+  - !append-once Vehicle.q000_nomad_border_patrol_heli
+  - !append-once Vehicle.q000_nomad_chase_cargo_av
+  - !append-once Vehicle.q000_nomad_drone
+  - !append-once Vehicle.q000_nomad_v_sport1_herrera_outlaw_quest
+  - !append-once Vehicle.q000_nomad_v_sport1_quadra_turbo_quest
+  - !append-once Vehicle.q000_nomad_v_sport1_rayfield_aerondight_quest
+  - !append-once Vehicle.q000_nomad_v_sport1_rayfield_caliburn_quest
+  - !append-once Vehicle.q000_nomad_v_sport2_mizutani_shion_nomad_quest
   - !append-once Vehicle.q000_nomad_v_sport2_mizutani_shion_quest
+  - !append-once Vehicle.q000_nomad_v_sport2_porsche_911turbo_quest
+  - !append-once Vehicle.q000_nomad_v_sport2_quadra_type66_nomad_quest
+  - !append-once Vehicle.q000_nomad_v_sport2_quadra_type66_quest
+  - !append-once Vehicle.q000_nomad_v_sport2_villefort_alvarado_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_archer_hella_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_archer_quartz_nomad_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_archer_quartz_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_chevalier_thrax_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_makigai_maimai_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_thorton_colby_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_thorton_galena_nomad_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_thorton_galena_quest
+  - !append-once Vehicle.q000_nomad_v_standard2_villefort_cortes_police
+  - !append-once Vehicle.q000_nomad_v_standard2_villefort_cortes_quest
+  - !append-once Vehicle.q000_nomad_v_standard25_mahir_supron_quest
+  - !append-once Vehicle.q000_nomad_v_standard25_thorton_colby_nomad_quest
+  - !append-once Vehicle.q000_nomad_v_standard25_thorton_colby_pickup_quest
+  - !append-once Vehicle.q000_nomad_v_standard25_villefort_columbus_quest
+  - !append-once Vehicle.q000_nomad_v_standard3_chevalier_emperor_quest
+  - !append-once Vehicle.q000_nomad_v_standard3_thorton_mackinaw_nomad_quest
+  - !append-once Vehicle.q000_nomad_v_standard3_thorton_mackinaw_quest
+  - !append-once Vehicle.q000_nomad_v_utility4_kaukaz_bratsk_quest
+  - !append-once Vehicle.q000_nomad_v_utility4_kaukaz_zeya_quest
+  - !append-once Vehicle.q000_nomad_v_utility4_militech_behemoth_quest
+  - !append-once Vehicle.q000_nomad_v_vista_car
+  - !append-once Vehicle.q000_sheriffs_car
+  - !append-once Vehicle.q000_v_nomad_car
+  - !append-once Vehicle.q001_archer_hella
+  - !append-once Vehicle.q001_barricade_police_cars
+  - !append-once Vehicle.q001_dex_limo
+  - !append-once Vehicle.q001_lux_av
+  - !append-once Vehicle.q001_quadra_turbo
+  - !append-once Vehicle.q001_scavengers_chase_van
+  - !append-once Vehicle.q001_trauma_av
+  - !append-once Vehicle.q001_victim_cortes
+  - !append-once Vehicle.q003_bossfight_car
+  - !append-once Vehicle.q003_manticore
+  - !append-once Vehicle.q003_suv
+  - !append-once Vehicle.q005_arasaka_heavy_combat_drone
+  - !append-once Vehicle.q005_arasaka_light_combat_drone
+  - !append-once Vehicle.q005_delamain_cab_combat
+  - !append-once Vehicle.q005_saburo_av
+  - !append-once Vehicle.q101_corpo_av
+  - !append-once Vehicle.q101_delamain_cab
+  - !append-once Vehicle.q101_stretchers
+  - !append-once Vehicle.q101_troy_bike
+  - !append-once Vehicle.q101_wheelchair
+  - !append-once Vehicle.q103_6th_vehicle
+  - !append-once Vehicle.q103_panam_stolen_car
+  - !append-once Vehicle.q103_raffen_vehicle
+  - !append-once Vehicle.q104_airstrip_destroyed_nomad
+  - !append-once Vehicle.q104_av_kang_tao_civilian
+  - !append-once Vehicle.q104_av_zetatech
+  - !append-once Vehicle.q104_scorpion_bike
+  - !append-once Vehicle.q108_arasaka_car
+  - !append-once Vehicle.q108_arasaka_helicopter
+  - !append-once Vehicle.q108_delamain_cab
+  - !append-once Vehicle.q108_thugs_van
+  - !append-once Vehicle.q110_animals_bike
+  - !append-once Vehicle.q110_huge_cargo_av
+  - !append-once Vehicle.q110_invisible_vehicle
+  - !append-once Vehicle.q110_max_tac_heli
+  - !append-once Vehicle.q110_news_station_av
+  - !append-once Vehicle.q110_voodoo_boy_lookout_car
+  - !append-once Vehicle.q111_sobchak_car
+  - !append-once Vehicle.q112_arasaka_av
+  - !append-once Vehicle.q112_arasaka_av_static
+  - !append-once Vehicle.q112_arasaka_suv
+  - !append-once Vehicle.q112_cargo_ship
+  - !append-once Vehicle.q112_flying_dragon_barge
+  - !append-once Vehicle.q112_fox_barge
+  - !append-once Vehicle.q112_large_barge_01
+  - !append-once Vehicle.q112_news54_Av
+  - !append-once Vehicle.q112_phoenix
+  - !append-once Vehicle.q112_samurai_barge
+  - !append-once Vehicle.q112_truck
+  - !append-once Vehicle.q113_av
+  - !append-once Vehicle.q114_archer_quartz_nomad
+  - !append-once Vehicle.q114_brennan_apollo_nomad
+  - !append-once Vehicle.q114_fake_4wheel_truck
+  - !append-once Vehicle.q114_militech_av
+  - !append-once Vehicle.q114_militech_mechdrop_av
+  - !append-once Vehicle.q114_militech_missile_av
+  - !append-once Vehicle.q114_militech_missile_truck_final
+  - !append-once Vehicle.q114_militech_panzer
+  - !append-once Vehicle.q114_militech_response_bike
+  - !append-once Vehicle.q114_militech_response_car
+  - !append-once Vehicle.q114_mizutani_shion_nomad
+  - !append-once Vehicle.q114_mood_scene_car_001
+  - !append-once Vehicle.q114_mood_scene_car_002
+  - !append-once Vehicle.q114_mood_scene_car_racer
+  - !append-once Vehicle.q114_nomad_bike_001
+  - !append-once Vehicle.q114_nomad_car_cassidy
+  - !append-once Vehicle.q114_nomad_car_regular_001
+  - !append-once Vehicle.q114_nomad_car_teddy
+  - !append-once Vehicle.q114_nomad_car_van_001
+  - !append-once Vehicle.q114_nomad_drone
+  - !append-once Vehicle.q114_nomad_drone_bombus_veh
+  - !append-once Vehicle.q114_nomad_panzer
+  - !append-once Vehicle.q114_quadra_type66_nomad
+  - !append-once Vehicle.q114_thorton_colby_nomad
+  - !append-once Vehicle.q114_thorton_galena_nomad
+  - !append-once Vehicle.q114_transmission_van
+  - !append-once Vehicle.q114_villefort_columbus_nomad
+  - !append-once Vehicle.q115_av_smasher
+  - !append-once Vehicle.q115_halo_jump_av
+  - !append-once Vehicle.q115_halo_jump_av_crashed
+  - !append-once Vehicle.q115_satellite
+  - !append-once Vehicle.q116_delamain_av
+  - !append-once Vehicle.q201_limo_av
+  - !append-once Vehicle.q202_bob_vehicle
+  - !append-once Vehicle.q202_teddy_vehicle
+  - !append-once Vehicle.q203_delamain_av
+  - !append-once Vehicle.q204_bus
+  - !append-once Vehicle.q204_steve_dad_car
+  - !append-once Vehicle.rcr_03_escape_car
+  - !append-once Vehicle.reginald_vehicle
+  - !append-once Vehicle.rogue_bike
+  - !append-once Vehicle.rogue_car
+  - !append-once Vehicle.santiago_bike
+  - !append-once Vehicle.santiago_truck
+  - !append-once Vehicle.saul_bike
+  - !append-once Vehicle.sobchak_ncpd_vehicle
   - !append-once Vehicle.sobchak_vehicle
+  - !append-once Vehicle.spr_03_nomad_truck
+  - !append-once Vehicle.sq004_deco_nomad_car
+  - !append-once Vehicle.sq004_nomad_bike
+  - !append-once Vehicle.sq004_nomad_drone
+  - !append-once Vehicle.sq004_raffen_shiv_car
+  - !append-once Vehicle.sq004_raffen_shiv_car_archer
+  - !append-once Vehicle.sq004_raffen_shiv_car_tall
+  - !append-once Vehicle.sq004_saul_truck_scanning
+  - !append-once Vehicle.sq004_transmission_van
+  - !append-once Vehicle.sq006_mobile_lab
+  - !append-once Vehicle.sq011_denny_vehicle
+  - !append-once Vehicle.sq011_nancy_vehicle
+  - !append-once Vehicle.sq012_peralez_car
+  - !append-once Vehicle.sq012_yu_car
+  - !append-once Vehicle.sq017_us_cracks_truck
+  - !append-once Vehicle.sq018_maxtac_av
+  - !append-once Vehicle.sq021_av_trauma
+  - !append-once Vehicle.sq021_corpo_av
+  - !append-once Vehicle.sq021_farm_police_1
+  - !append-once Vehicle.sq021_farm_police_2
+  - !append-once Vehicle.sq022_drone
+  - !append-once Vehicle.sq023_bills_truck
+  - !append-once Vehicle.sq023_cargo_truck
+  - !append-once Vehicle.sq023_companys_car
+  - !append-once Vehicle.sq024_claire_truck
+  - !append-once Vehicle.sq024_dominic_truck
+  - !append-once Vehicle.sq024_gps_system
+  - !append-once Vehicle.sq024_trauma_team_av
+  - !append-once Vehicle.sq025_archer_crash
+  - !append-once Vehicle.sq025_delamain_av
+  - !append-once Vehicle.sq025_delamain_cab
+  - !append-once Vehicle.sq025_delamain_cab_angry
+  - !append-once Vehicle.sq025_delamain_cab_deep
   - !append-once Vehicle.sq025_delamain_cab_destro
+  - !append-once Vehicle.sq025_delamain_cab_manic
+  - !append-once Vehicle.sq025_delamain_cab_mean
+  - !append-once Vehicle.sq025_delamain_cab_sad
+  - !append-once Vehicle.sq025_delamain_cab_scared
+  - !append-once Vehicle.sq025_delamain_cab_suicidal
+  - !append-once Vehicle.sq025_quadra
+  - !append-once Vehicle.sq025_sportscar_crash
+  - !append-once Vehicle.sq027_car_cassidy
+  - !append-once Vehicle.sq027_car_teddy
+  - !append-once Vehicle.sq027_fake_flatbed_truck_a
+  - !append-once Vehicle.sq027_fake_flatbed_truck_b
+  - !append-once Vehicle.sq027_fake_train
+  - !append-once Vehicle.sq027_fake_train_car_A
+  - !append-once Vehicle.sq027_fake_train_car_B
+  - !append-once Vehicle.sq027_militech_suv
+  - !append-once Vehicle.sq027_nomad_jammer
+  - !append-once Vehicle.sq027_nomad_truck
+  - !append-once Vehicle.sq027_savable_raffen_shiv_car
+  - !append-once Vehicle.sq027_v_nomad_car
+  - !append-once Vehicle.sq028_yacht
+  - !append-once Vehicle.sq030_lake_crane
+  - !append-once Vehicle.sq031_ruby_vehicle
+  - !append-once Vehicle.sts_bls_ina_07_ghost_car
+  - !append-once Vehicle.sts_bls_ina_08_pickup_car
+  - !append-once Vehicle.sts_bls_ina_08_trevor_car
   - !append-once Vehicle.sts_cct_dtn_04_av
   - !append-once Vehicle.sts_cct_dtn_04_av_alt
+  - !append-once Vehicle.sts_hey_gle_06_estevez_car
+  - !append-once Vehicle.sts_std_arr_12_autonomous_truck
+  - !append-once Vehicle.sts_std_rcr_01_car
+  - !append-once Vehicle.sts_wat_kab_04_car
+  - !append-once Vehicle.sts_wat_kab_102_objective_car
+  - !append-once Vehicle.takemura_van
+  - !append-once Vehicle.takemura_vehicle
   - !append-once Vehicle.v_001_limousine
   - !append-once Vehicle.v_003_smalltruck
   - !append-once Vehicle.v_004_bubble_one
@@ -91,15 +406,17 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_kaukaz_z71_aras
   - !append-once Vehicle.v_lego_demo_trigger
   - !append-once Vehicle.v_mahir_mt28_coach
-  - !append-once Vehicle.v_mahir_mt28_coach
-  - !append-once Vehicle.v_mahir_mt28_coach
   - !append-once Vehicle.v_mbike_brennan_cycles_thanatos
   - !append-once Vehicle.v_mbike_brennan_cycles_thanatos_traffic
   - !append-once Vehicle.v_mbike_yaiba_asmx_kusanagi_secondary
   - !append-once Vehicle.v_mbike_yaiba_asmx_kusanagi_secondary_traffic
   - !append-once Vehicle.v_militech_basilisk
+  - !append-once Vehicle.v_militech_basilisk_militech
+  - !append-once Vehicle.v_militech_basilisk_transport
   - !append-once Vehicle.v_sport1_herrera_outlaw
   - !append-once Vehicle.v_sport1_herrera_outlaw_heist
+  - !append-once Vehicle.v_sport1_herrera_outlaw_player
+  - !append-once Vehicle.v_sport1_herrera_outlaw_quest
   - !append-once Vehicle.v_sport1_herrera_riptide
   - !append-once Vehicle.v_sport1_herrera_riptide_player
   - !append-once Vehicle.v_sport1_herrera_riptide_premium
@@ -118,12 +435,19 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_sport1_quadra_turbo_player
   - !append-once Vehicle.v_sport1_quadra_turbo_poor
   - !append-once Vehicle.v_sport1_quadra_turbo_quest
+  - !append-once Vehicle.v_sport1_quadra_turbo_r
   - !append-once Vehicle.v_sport1_quadra_turbo_r_player
   - !append-once Vehicle.v_sport1_quadra_turbo_tyger_claw
   - !append-once Vehicle.v_sport1_rayfield_aerondight
+  - !append-once Vehicle.v_sport1_rayfield_aerondight_kerry
+  - !append-once Vehicle.v_sport1_rayfield_aerondight_player
+  - !append-once Vehicle.v_sport1_rayfield_aerondight_quest
   - !append-once Vehicle.v_sport1_rayfield_caliburn
   - !append-once Vehicle.v_sport1_rayfield_caliburn_02_player
   - !append-once Vehicle.v_sport1_rayfield_caliburn_murdered
+  - !append-once Vehicle.v_sport1_rayfield_caliburn_player
+  - !append-once Vehicle.v_sport1_rayfield_caliburn_quest
+  - !append-once Vehicle.v_sport2_mizutani_shion
   - !append-once Vehicle.v_sport2_mizutani_shion_nomad
   - !append-once Vehicle.v_sport2_mizutani_shion_nomad_02_player
   - !append-once Vehicle.v_sport2_mizutani_shion_nomad_buggy
@@ -154,6 +478,7 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_sport2_quadra_type66_bulleat
   - !append-once Vehicle.v_sport2_quadra_type66_nomad
   - !append-once Vehicle.v_sport2_quadra_type66_nomad_kb
+  - !append-once Vehicle.v_sport2_quadra_type66_nomad_ncu
   - !append-once Vehicle.v_sport2_quadra_type66_nomad_ncu_player
   - !append-once Vehicle.v_sport2_quadra_type66_nomad_player
   - !append-once Vehicle.v_sport2_quadra_type66_nomad_player_03
@@ -190,26 +515,35 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_sport2_villefort_deleon_web
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_animal
+  - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_mox
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_player
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_player_02
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_player_03
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_quest
+  - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_test5
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_tyger
   - !append-once Vehicle.v_sportbike1_yaiba_kusanagi_tyger_player
   - !append-once Vehicle.v_sportbike2_arch
+  - !append-once Vehicle.v_sportbike2_arch_jackie
   - !append-once Vehicle.v_sportbike2_arch_jackie_player
+  - !append-once Vehicle.v_sportbike2_arch_jackie_tuned
   - !append-once Vehicle.v_sportbike2_arch_jackie_tuned_player
   - !append-once Vehicle.v_sportbike2_arch_linas_player
   - !append-once Vehicle.v_sportbike2_arch_player
   - !append-once Vehicle.v_sportbike2_arch_player_02
   - !append-once Vehicle.v_sportbike2_arch_player_03
+  - !append-once Vehicle.v_sportbike2_arch_quest
+  - !append-once Vehicle.v_sportbike2_arch_sport
   - !append-once Vehicle.v_sportbike2_arch_tyger
   - !append-once Vehicle.v_sportbike2_arch_tyger_player
   - !append-once Vehicle.v_sportbike3_brennan_apollo
   - !append-once Vehicle.v_sportbike3_brennan_apollo_nomad
   - !append-once Vehicle.v_sportbike3_brennan_apollo_nomad_player
   - !append-once Vehicle.v_sportbike3_brennan_apollo_player
+  - !append-once Vehicle.v_sportbike3_brennan_apollo_quest
   - !append-once Vehicle.v_sportbike3_brennan_apollo_scorpion
+  - !append-once Vehicle.v_sportbike3_brennan_apollo_sport
+  - !append-once Vehicle.v_sportbike3_brennan_apollo_tyger
   - !append-once Vehicle.v_standard2_archer_bandit
   - !append-once Vehicle.v_standard2_archer_bandit_player
   - !append-once Vehicle.v_standard2_archer_bandit_quest
@@ -250,6 +584,7 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_standard2_chevalier_thrax_quest
   - !append-once Vehicle.v_standard2_chevalier_thrax_scavengers
   - !append-once Vehicle.v_standard2_chevalier_thrax_sixth_street
+  - !append-once Vehicle.v_standard2_chevalier_thrax_valentino
   - !append-once Vehicle.v_standard2_chevalier_thrax_valentinos
   - !append-once Vehicle.v_standard2_makigai_maimai
   - !append-once Vehicle.v_standard2_makigai_maimai_gt
@@ -276,7 +611,9 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_standard2_thorton_colby_valentinos
   - !append-once Vehicle.v_standard2_thorton_galena
   - !append-once Vehicle.v_standard2_thorton_galena_bobas
+  - !append-once Vehicle.v_standard2_thorton_galena_bobas_player
   - !append-once Vehicle.v_standard2_thorton_galena_gt
+  - !append-once Vehicle.v_standard2_thorton_galena_gt_camber
   - !append-once Vehicle.v_standard2_thorton_galena_maelstrom
   - !append-once Vehicle.v_standard2_thorton_galena_ncu
   - !append-once Vehicle.v_standard2_thorton_galena_nomad
@@ -295,6 +632,7 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_standard2_villefort_cortes
   - !append-once Vehicle.v_standard2_villefort_cortes_arasaka
   - !append-once Vehicle.v_standard2_villefort_cortes_delamain
+  - !append-once Vehicle.v_standard2_villefort_cortes_delamain_player
   - !append-once Vehicle.v_standard2_villefort_cortes_kangtao
   - !append-once Vehicle.v_standard2_villefort_cortes_player
   - !append-once Vehicle.v_standard2_villefort_cortes_police
@@ -349,6 +687,32 @@ Vehicle.vehicle_list.list:
   - !append-once Vehicle.v_standard25_villefort_columbus_player
   - !append-once Vehicle.v_standard25_villefort_columbus_poor
   - !append-once Vehicle.v_standard25_villefort_columbus_quest
+  - !append-once Vehicle.v_standard25_villefort_columbus_sixth_street
+  - !append-once Vehicle.v_standard25_villefort_columbus_tyger
+  - !append-once Vehicle.v_standard3_chevalier_emperor
+  - !append-once Vehicle.v_standard3_chevalier_emperor_militech
+  - !append-once Vehicle.v_standard3_chevalier_emperor_ncu
+  - !append-once Vehicle.v_standard3_chevalier_emperor_player
+  - !append-once Vehicle.v_standard3_chevalier_emperor_police
+  - !append-once Vehicle.v_standard3_chevalier_emperor_police_siren
+  - !append-once Vehicle.v_standard3_chevalier_emperor_quest
+  - !append-once Vehicle.v_standard3_chevalier_emperor_sport
+  - !append-once Vehicle.v_standard3_thorton_mackinaw
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_country
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_country_poor
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_country_premium
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_ncu_player
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_nomad
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_nomad_ncu
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_nomad_panam
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_nomad_quest
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_player
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_poor
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_premium
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_quest
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_sixth_street
+  - !append-once Vehicle.v_standard3_thorton_mackinaw_valentinos
+  - !append-once Vehicle.v_trailer_supron
   - !append-once Vehicle.v_utility4_chevalier_centurion
   - !append-once Vehicle.v_utility4_chevalier_centurion_cargo
   - !append-once Vehicle.v_utility4_chevalier_centurion_cargo_dogtown
